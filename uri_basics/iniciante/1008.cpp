@@ -14,8 +14,6 @@ com um espaço em branco antes e depois da igualdade. No caso do salário,
 também deve haver um espaço em branco após o $.
 */
 
-// Não enviado para o uri ainda
-
 #include <iostream>
 #include <iomanip>
 
@@ -33,7 +31,7 @@ main(void){
     float value;
 
     cin >> num >> qtdHoras >> value;
-    cout << setprecision(2);
+    cout << setprecision(2) << fixed;
     cout << "NUMBER = " << num << "\n" << "SALARY = U$ " << value * (float) qtdHoras << "\n";
 
     return 0;

@@ -30,7 +30,7 @@ main(void){
     cin >> code >> qtdPecas >> uValue;
     p2 = qtdPecas * uValue;
 
-    cout << setprecision(5);
+    cout << setprecision(2) << fixed;
     cout << "VALOR A PAGAR: R$ " << p1 + p2 << "\n";
     
     return 0;
