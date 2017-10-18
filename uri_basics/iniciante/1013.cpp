@@ -12,7 +12,6 @@ Imprima o maior dos três valores seguido por um espaço e a mensagem "eh o maio
 */
 
 #include <iostream>
-#include <iomanip>
 
 using namespace std;
 
